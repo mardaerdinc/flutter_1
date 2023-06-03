@@ -190,7 +190,7 @@ class _DashboardState extends State<Dashboard>
                     weekData: weeksData[activeWeek - 1],
                   ),
                   Positioned(
-                    top: 40,
+                    top: 43,
                     child: CustomPaint(
                       size:
                           Size(MediaQuery.of(context).size.width, chartHeight),
